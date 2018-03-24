@@ -1,0 +1,7 @@
+Este programa funciona inicialmente recebendo os seguintes parametros: "n2m numero ba bd".
+n2m = constante de inicialização; Caso este valor esteja errado, o programa retorna uma mensagem de erro.
+numero = valor que sera convertido
+ba = base atual do valor acima
+bd = base destino, a qual o numero sera convertido
+
+Apos receber essas informações, o programa checa possiveis inputs inválidos. Após isso ele identifica a base do numero e, caso ba e bd sejam iguas, ele retorna o numero inicial. Caso bd seja igual a 10, ele executa a fuinção que transforma um numero de qualquer base para base 10. Caso ba seja igual a 10, ele executa a função que transforma o numero da base 10 para qualquer base. Finalmente, caso nem ba e nem bd sejam igual a 10, ele converte o numero para a base 10 e pega o resultado e converte para base desejada.
